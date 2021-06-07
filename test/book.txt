@@ -1,0 +1,33 @@
+Introduction
+
+We’ve all used an operating system (OS) before (e.g. Windows XP, Linux, etc.), and
+perhaps we have even written some programs to run on one; but what is an OS actually
+there for? how much of what I see when I use a computer is done by hardware and how
+much is done by software? and how does the computer actually work?
+The late Prof. Doug Shepherd, a lively teacher of mine at Lancaster University,
+once reminded me amid my grumbling about some annoying programming problem that,
+back in the day, before he could even begin to attempt any research, he had to write
+his own operating system, from scratch. So it seems that, today, we take a lot for
+granted about how these wonderful machines actually work underneith all those layers
+of software that commonly come bundled with them and which are required for their
+day-to-day usefulness.
+Here, concentrating on the widely used x86 architecture CPU, we will strip bare our
+computer of all software and follow in Doug’s early footsteps, learning along the way
+about:
+• How a computer boots
+• How to write low-level programs in the barren landscape where no operating
+system yet exists
+• How to configure the CPU so that we can begin to use its extended functionality
+• How to bootstrap code written in a higher-level language, so that we can really
+start to make some progress towards our own operating system
+• How to create some fundamental operating system services, such as device drivers,
+file systems, multi-tasking processing.
+Note that, in terms of practical operating system functionality, this guide does not
+aim to be extensive, but instead aims to pool together snippets of information from
+many sources into a self-contained and coherent document, that will give you a hands-on
+experience of low-level programming, how operating systems are written, and the kind
+of problems they must solve. The approach taken by this guide is unique in that the
+particular languages and tools (e.g. assembly, C, Make, etc.) are not the focus but
+instead are treated as a means to an end: we will learn what we need to about these
+things to help us achieve our main goal.
+
